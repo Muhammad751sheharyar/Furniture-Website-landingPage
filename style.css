@@ -1,0 +1,263 @@
+.main {}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: sans-serif;
+    /* background-color: red; */
+
+}
+
+.navbar ul {
+    gap: 70px;
+    display: flex;
+}
+
+ul li {
+    /* font-family: ; */
+    list-style: none;
+}
+
+.icons {
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    color: white;
+}
+
+.heroSection {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    /* background-image: url(./Images/98fb219fa11f805aade2224f1d6658764a2395df\ \(1\).jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    position: relative;
+}
+
+
+
+.heroText {
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 300px;
+    width: 370px;
+    /* background-color: red; */
+    background-color: #fff3e3;
+    position: absolute;
+    right: 150px;
+    top: 100px;
+
+}
+
+.Hpara1 {
+    margin-top: 20px;
+    background-color: #fff3e3;
+    font-size: 20px;
+}
+
+.Hpara2 {
+    color: #b88e2f;
+    height: 100px;
+    width: 300px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.heroText button {
+    background-color: #b88e2f;
+    height: 40px;
+    width: 130px;
+    color: white;
+    border: none;
+}
+
+.cards {
+    margin-top: 50px;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1 {
+    height: 500px;
+    width: 300px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.card2 {
+    height: 500px;
+    width: 300px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    gap: 30px;
+    font-size: 20px;
+
+
+}
+
+.card3 {
+    height: 500px;
+    width: 300px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    gap: 30px;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    /* margin: auto; */
+    font-size: 32px;
+    margin-top: 100px;
+
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+
+    margin: auto;
+}
+
+
+
+
+.Products {
+    height: auto;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+}
+
+.productText {
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.prodShort {
+    font-size: 16px;
+    margin-left: 20px;
+
+}
+
+.BTNShowmore {
+    margin: auto;
+    background-color: #b88e2f;
+    height: 40px;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border: none;
+}
+
+
+.rooms {
+    margin-top: 100px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    /* background-color: black; */
+    justify-content: space-around;
+
+}
+
+.room {
+    height: 550px;
+    width: 30%;
+    background-color: blue;
+}
+
+.r1 {
+    background-color: #fcf8f3;
+    display: flex;
+    flex-direction: column;
+}
+
+.r2 {
+    background-image: url(./Images/f89a66d94961c3801f4c07439f27b13468e5e545.png);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+   margin-bottom: 50px;
+}
+
+.r3 {
+    background-image: url(./Images/acc48179d1b18b523420e79dda1e92951ecde49b.png);
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.BTNExploremore {
+    background-color: #b88e2f;
+    height: 40px;
+    width: 130px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.inner{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+
+}
