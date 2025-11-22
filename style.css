@@ -209,7 +209,7 @@ p {
 .room {
     height: 550px;
     width: 30%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .r1 {
@@ -223,12 +223,13 @@ p {
     background-size: cover;
     display: flex;
     align-items: end;
-   margin-bottom: 50px;
+    /* margin-top: 100px; */
 }
 
 .r3 {
-    background-image: url(./Images/acc48179d1b18b523420e79dda1e92951ecde49b.png);
-    background-size: cover;
+    /* background-color: RED; */
+    /* background-image: url(./Images/acc48179d1b18b523420e79dda1e92951ecde49b.png);  */
+     background-size: cover; 
 }
 
 h1 {
@@ -255,9 +256,27 @@ body {
 }
 
 
-.inner{
-    height: 100px;
-    width: 200px;
-    background-color: red;
+.inner {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    width: 210px;
+    background-color: #f3f3f3;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    gap: 20px;
+}
 
+.p1 {
+    font-size: 16px;
+}
+
+.p2 {
+    font-size: 28px;
+}
+
+.sliderIcon{
+ margin-top: 20pxg;   
 }
